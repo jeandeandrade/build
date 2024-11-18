@@ -14,7 +14,7 @@ export default function Navbar() {
                 <li>Agents</li>
                 <li>Services</li>
                 <li>Listings</li>
-                <li><IoIosSearch size={24}/></li>
+                <IoIosSearch size={24}/>
             </ul>
 
             <ul className='flex justify-center items-center gap-7'>
