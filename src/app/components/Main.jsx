@@ -11,7 +11,7 @@ export default function Main() {
                 <p>Your will have everything nearby supermaket, buses, station, the carmen neighborhood, etc </p>
                 <div>
                     <input className="py-4 px-6 rounded-l-full" type="text" name="email" id="email" />
-                    <button className="bg-gray-950 text-white py-4 px-6 rounded-full ml-[-20px] hover:bg-gray-700">Get a Quote</button>
+                    <button className="bg-gray-950 text-white py-4 px-6 rounded-full ml-[-20px] transition-all ease-in hover:bg-gray-700">Get a Quote</button>
                 </div>
             </div>
 
