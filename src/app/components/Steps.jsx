@@ -1,32 +1,32 @@
-import { FaPencil } from "react-icons/fa6";
-import { IoMailUnreadOutline } from "react-icons/io5";
-import { LuMessagesSquare } from "react-icons/lu";
+import { BsChatDots } from "react-icons/bs";
+import { BiMailSend } from "react-icons/bi";
+import { PiPencilSimpleLineBold } from "react-icons/pi";
 
 export default function Steps() {
     return (
-        <div className="mx-6 my-14">
+        <div className="mx-6 my-20">
             <div className="w-auto text-center m-6">
-                <p>Three steps. Three minutes.</p>
-                <h1 className="font-bold text-5xl">Everything should be this easy.</h1>
+                <p className='mb-5'>Three steps. Three minutes.</p>
+                <h1 className="font-semibold text-5xl">Everything should be this easy.</h1>
             </div>
 
-            <div className="grid grid-cols-3 gap-2">
-                <div className="grid gap-4">
-                    <LuMessagesSquare size={80} className="text-green-500"/>
-                    <h1 className="text-3xl font-bold">Answer questions</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, at non, error nemo iste fugiat voluptatum.</p>
+            <div className="grid grid-cols-3 gap-96 px-10 mt-10">
+                <div className="grid gap-6 items-center justify-center">
+                    <BsChatDots size={80} className="text-green-500" alt='Chat Icon'/>
+                    <h1 className="text-3xl font-semibold">Answer questions</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur. <br/> Adipiscing imperdiet bibendum in in <br/> vestibulum.</p>
                 </div>
 
-                <div className="grid gap-4">
-                    <IoMailUnreadOutline size={80} className="text-orange-500"/>
-                    <h1 className="text-3xl font-bold">Select a quote</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, at non, error nemo iste fugiat voluptatum.</p>
+                <div className="grid gap-6 items-center justify-center">
+                    <BiMailSend size={80} className="text-orange-500" alt='Email Icon'/>
+                    <h1 className="text-3xl font-semibold">Select a quote</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur. <br/> Adipiscing imperdiet bibendum in in <br/> vestibulum.</p>
                 </div>
 
-                <div className="grid gap-4">
-                    <FaPencil size={80} className="text-violet-500"/>
-                    <h1 className="text-3xl font-bold">Get registered</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, at non, error nemo iste fugiat voluptatum.</p>
+                <div className="grid gap-6 items-center justify-center">
+                    <PiPencilSimpleLineBold size={80} className="text-violet-500" alt='Pencil Icon'/>
+                    <h1 className="text-3xl font-semibold">Get registered</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur. <br/> Adipiscing imperdiet bibendum in in <br/> vestibulum.</p>
                 </div>
             </div>
         </div>

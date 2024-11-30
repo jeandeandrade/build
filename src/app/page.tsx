@@ -2,6 +2,7 @@ import Navbar from '../app/components/Navbar';
 import Main from '../app/components/Main';
 import Steps from '../app/components/Steps';
 import Projects from '../app/components/Projects';
+import Estate from '../app/components/Estate';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Main/>
       <Steps/>
       <Projects/>
+      <Estate/>
     </>
   );
 }
