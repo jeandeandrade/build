@@ -3,6 +3,7 @@ import Main from '../app/components/Main';
 import Steps from '../app/components/Steps';
 import Projects from '../app/components/Projects';
 import Estate from '../app/components/Estate';
+import Newsletter from '../app/components/Newsletter';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Steps/>
       <Projects/>
       <Estate/>
+      <Newsletter/>
     </>
   );
 }
